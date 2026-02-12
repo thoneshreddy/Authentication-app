@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:4000/api", 
+  baseURL: "https://authentication-app-m7is.onrender.com/api", 
   // change to Render URL after deploy
 });
 
